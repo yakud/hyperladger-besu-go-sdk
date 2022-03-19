@@ -24,12 +24,12 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/surzm/hyperladger-besu-go-sdk"
-	"github.com/surzm/hyperladger-besu-go-sdk/accounts/abi"
-	"github.com/surzm/hyperladger-besu-go-sdk/common"
-	"github.com/surzm/hyperladger-besu-go-sdk/core/types"
-	"github.com/surzm/hyperladger-besu-go-sdk/crypto"
-	"github.com/surzm/hyperladger-besu-go-sdk/event"
+	"github.com/ethereum/go-ethereum"
+	"github.com/ethereum/go-ethereum/accounts/abi"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/event"
 )
 
 // SignerFn is a signer function callback when a contract requires a method to

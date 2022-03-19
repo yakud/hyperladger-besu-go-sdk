@@ -27,7 +27,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/surzm/hyperladger-besu-go-sdk/common/math"
+	"github.com/ethereum/go-ethereum/common/math"
 )
 
 func TestStreamKind(t *testing.T) {

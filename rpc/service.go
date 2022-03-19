@@ -26,7 +26,7 @@ import (
 	"sync"
 	"unicode"
 
-	"github.com/surzm/hyperladger-besu-go-sdk/log"
+	"github.com/ethereum/go-ethereum/log"
 )
 
 var (

@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/surzm/hyperladger-besu-go-sdk/common/hexutil"
+	"github.com/ethereum/go-ethereum/common/hexutil"
 )
 
 type MyType [5]byte

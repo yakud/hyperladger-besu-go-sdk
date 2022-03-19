@@ -24,7 +24,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/surzm/hyperladger-besu-go-sdk/common"
+	"github.com/ethereum/go-ethereum/common"
 )
 
 // Type enumerator

@@ -1,4 +1,4 @@
-module github.com/surzm/hyperladger-besu-go-sdk
+module github.com/ethereum/go-ethereum
 
 go 1.17
 
