@@ -31,9 +31,9 @@ package secp256k1
 //#include "./libsecp256k1/src/modules/recovery/main_impl.h"
 //#include "ext.h"
 
-//typedef void (*callbackFunc) (const char* msg, void* data);
-//extern void secp256k1GoPanicIllegal(const char* msg, void* data);
-//extern void secp256k1GoPanicError(const char* msg, void* data);
+typedef void (*callbackFunc) (const char* msg, void* data);
+extern void secp256k1GoPanicIllegal(const char* msg, void* data);
+extern void secp256k1GoPanicError(const char* msg, void* data);
 */
 import "C"
 
