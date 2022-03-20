@@ -29,7 +29,7 @@ import (
 
 	mapset "github.com/deckarep/golang-set"
 	"github.com/gorilla/websocket"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/surzm/hyperladger-besu-go-sdk/log"
 )
 
 const (

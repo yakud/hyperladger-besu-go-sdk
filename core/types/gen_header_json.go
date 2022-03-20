@@ -7,8 +7,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/surzm/hyperladger-besu-go-sdk/common"
+	"github.com/surzm/hyperladger-besu-go-sdk/common/hexutil"
 )
 
 var _ = (*headerMarshaling)(nil)

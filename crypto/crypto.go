@@ -30,9 +30,9 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/surzm/hyperladger-besu-go-sdk/common"
+	"github.com/surzm/hyperladger-besu-go-sdk/common/math"
+	"github.com/surzm/hyperladger-besu-go-sdk/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

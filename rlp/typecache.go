@@ -22,7 +22,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/ethereum/go-ethereum/rlp/internal/rlpstruct"
+	"github.com/surzm/hyperladger-besu-go-sdk/rlp/internal/rlpstruct"
 )
 
 // typeinfo is an entry in the type cache.
