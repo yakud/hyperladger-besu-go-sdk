@@ -291,7 +291,7 @@ var bindTests = []struct {
 			"github.com/surzm/hyperladger-besu-go-sdk/accounts/abi/bind"
 			"github.com/surzm/hyperladger-besu-go-sdk/accounts/abi/bind/backends"
 			"github.com/surzm/hyperladger-besu-go-sdk/core"
-			"github.com/surzm/hyperladger-besu-go-sdk/crypto"
+			"github.com/ethereum/go-ethereum/crypto"
 		`,
 		`
 			// Generate a new random account and a funded simulator
@@ -346,7 +346,7 @@ var bindTests = []struct {
 			"github.com/surzm/hyperladger-besu-go-sdk/accounts/abi/bind"
 			"github.com/surzm/hyperladger-besu-go-sdk/accounts/abi/bind/backends"
 			"github.com/surzm/hyperladger-besu-go-sdk/core"
-			"github.com/surzm/hyperladger-besu-go-sdk/crypto"
+			"github.com/ethereum/go-ethereum/crypto"
 		`,
 		`
 			// Generate a new random account and a funded simulator
@@ -392,7 +392,7 @@ var bindTests = []struct {
 			"github.com/surzm/hyperladger-besu-go-sdk/accounts/abi/bind"
 			"github.com/surzm/hyperladger-besu-go-sdk/accounts/abi/bind/backends"
 			"github.com/surzm/hyperladger-besu-go-sdk/core"
-			"github.com/surzm/hyperladger-besu-go-sdk/crypto"
+			"github.com/ethereum/go-ethereum/crypto"
 		`,
 		`
 			// Generate a new random account and a funded simulator
@@ -450,7 +450,7 @@ var bindTests = []struct {
 			"github.com/surzm/hyperladger-besu-go-sdk/accounts/abi/bind/backends"
 			"github.com/surzm/hyperladger-besu-go-sdk/common"
 			"github.com/surzm/hyperladger-besu-go-sdk/core"
-			"github.com/surzm/hyperladger-besu-go-sdk/crypto"
+			"github.com/ethereum/go-ethereum/crypto"
 		`,
 		`
 			// Generate a new random account and a funded simulator
@@ -498,7 +498,7 @@ var bindTests = []struct {
 			"github.com/surzm/hyperladger-besu-go-sdk/accounts/abi/bind"
 			"github.com/surzm/hyperladger-besu-go-sdk/accounts/abi/bind/backends"
 			"github.com/surzm/hyperladger-besu-go-sdk/core"
-			"github.com/surzm/hyperladger-besu-go-sdk/crypto"
+			"github.com/ethereum/go-ethereum/crypto"
 		`,
 		`
 			// Generate a new random account and a funded simulator
@@ -564,7 +564,7 @@ var bindTests = []struct {
 			"github.com/surzm/hyperladger-besu-go-sdk/accounts/abi/bind"
 			"github.com/surzm/hyperladger-besu-go-sdk/accounts/abi/bind/backends"
 			"github.com/surzm/hyperladger-besu-go-sdk/core"
-			"github.com/surzm/hyperladger-besu-go-sdk/crypto"
+			"github.com/ethereum/go-ethereum/crypto"
 		`,
 		`
 			// Generate a new random account and a funded simulator
@@ -696,7 +696,7 @@ var bindTests = []struct {
 			"github.com/surzm/hyperladger-besu-go-sdk/accounts/abi/bind"
 			"github.com/surzm/hyperladger-besu-go-sdk/accounts/abi/bind/backends"
 			"github.com/surzm/hyperladger-besu-go-sdk/core"
-			"github.com/surzm/hyperladger-besu-go-sdk/crypto"
+			"github.com/ethereum/go-ethereum/crypto"
 		`,
 		`
 			// Generate a new random account and a funded simulator
@@ -746,7 +746,7 @@ var bindTests = []struct {
 			"github.com/surzm/hyperladger-besu-go-sdk/accounts/abi/bind/backends"
 			"github.com/surzm/hyperladger-besu-go-sdk/common"
 			"github.com/surzm/hyperladger-besu-go-sdk/core"
-			"github.com/surzm/hyperladger-besu-go-sdk/crypto"
+			"github.com/ethereum/go-ethereum/crypto"
 		`,
 		`
 			// Generate a new random account and a funded simulator
@@ -821,7 +821,7 @@ var bindTests = []struct {
 			"github.com/surzm/hyperladger-besu-go-sdk/accounts/abi/bind"
 			"github.com/surzm/hyperladger-besu-go-sdk/accounts/abi/bind/backends"
 			"github.com/surzm/hyperladger-besu-go-sdk/core"
-			"github.com/surzm/hyperladger-besu-go-sdk/crypto"
+			"github.com/ethereum/go-ethereum/crypto"
 		`,
 		`
 			// Generate a new random account and a funded simulator
@@ -915,7 +915,7 @@ var bindTests = []struct {
 			"github.com/surzm/hyperladger-besu-go-sdk/accounts/abi/bind/backends"
 			"github.com/surzm/hyperladger-besu-go-sdk/common"
 			"github.com/surzm/hyperladger-besu-go-sdk/core"
-			"github.com/surzm/hyperladger-besu-go-sdk/crypto"
+			"github.com/ethereum/go-ethereum/crypto"
 		`,
 		`
 			// Generate a new random account and a funded simulator
@@ -1105,7 +1105,7 @@ var bindTests = []struct {
 			"github.com/surzm/hyperladger-besu-go-sdk/accounts/abi/bind"
 			"github.com/surzm/hyperladger-besu-go-sdk/accounts/abi/bind/backends"
 			"github.com/surzm/hyperladger-besu-go-sdk/core"
-			"github.com/surzm/hyperladger-besu-go-sdk/crypto"
+			"github.com/ethereum/go-ethereum/crypto"
 		`,
 		`
 			// Generate a new random account and a funded simulator
@@ -1240,7 +1240,7 @@ var bindTests = []struct {
 			"github.com/surzm/hyperladger-besu-go-sdk/accounts/abi/bind"
 			"github.com/surzm/hyperladger-besu-go-sdk/accounts/abi/bind/backends"
 			"github.com/surzm/hyperladger-besu-go-sdk/core"
-			"github.com/surzm/hyperladger-besu-go-sdk/crypto"
+			"github.com/ethereum/go-ethereum/crypto"
 		`,
 
 		`
@@ -1382,7 +1382,7 @@ var bindTests = []struct {
 			"github.com/surzm/hyperladger-besu-go-sdk/accounts/abi/bind"
 			"github.com/surzm/hyperladger-besu-go-sdk/accounts/abi/bind/backends"
 			"github.com/surzm/hyperladger-besu-go-sdk/core"
-			"github.com/surzm/hyperladger-besu-go-sdk/crypto"
+			"github.com/ethereum/go-ethereum/crypto"
 		`,
 		`
 			// Generate a new random account and a funded simulator
@@ -1448,7 +1448,7 @@ var bindTests = []struct {
 		"github.com/surzm/hyperladger-besu-go-sdk/accounts/abi/bind"
 		"github.com/surzm/hyperladger-besu-go-sdk/accounts/abi/bind/backends"
 		"github.com/surzm/hyperladger-besu-go-sdk/core"
-		"github.com/surzm/hyperladger-besu-go-sdk/crypto"
+		"github.com/ethereum/go-ethereum/crypto"
 		`,
 		`
 		// Initialize test accounts
@@ -1535,7 +1535,7 @@ var bindTests = []struct {
 
 		"github.com/surzm/hyperladger-besu-go-sdk/accounts/abi/bind"
 		"github.com/surzm/hyperladger-besu-go-sdk/accounts/abi/bind/backends"
-		"github.com/surzm/hyperladger-besu-go-sdk/crypto"
+		"github.com/ethereum/go-ethereum/crypto"
 		"github.com/surzm/hyperladger-besu-go-sdk/core"
 		`,
 		`
@@ -1598,7 +1598,7 @@ var bindTests = []struct {
 
 		"github.com/surzm/hyperladger-besu-go-sdk/accounts/abi/bind"
 		"github.com/surzm/hyperladger-besu-go-sdk/accounts/abi/bind/backends"
-		"github.com/surzm/hyperladger-besu-go-sdk/crypto"
+		"github.com/ethereum/go-ethereum/crypto"
 		"github.com/surzm/hyperladger-besu-go-sdk/core"
         `,
 		`
@@ -1661,7 +1661,7 @@ var bindTests = []struct {
 			"github.com/surzm/hyperladger-besu-go-sdk/accounts/abi/bind"
 			"github.com/surzm/hyperladger-besu-go-sdk/accounts/abi/bind/backends"
 			"github.com/surzm/hyperladger-besu-go-sdk/core"
-			"github.com/surzm/hyperladger-besu-go-sdk/crypto"
+			"github.com/ethereum/go-ethereum/crypto"
 		`,
 		`
 			// Generate a new random account and a funded simulator
@@ -1722,7 +1722,7 @@ var bindTests = []struct {
 			"github.com/surzm/hyperladger-besu-go-sdk/accounts/abi/bind"
 			"github.com/surzm/hyperladger-besu-go-sdk/accounts/abi/bind/backends"
 			"github.com/surzm/hyperladger-besu-go-sdk/core"
-			"github.com/surzm/hyperladger-besu-go-sdk/crypto"
+			"github.com/ethereum/go-ethereum/crypto"
 	   `,
 		`
 			key, _ := crypto.GenerateKey()
@@ -1810,7 +1810,7 @@ var bindTests = []struct {
 			"github.com/surzm/hyperladger-besu-go-sdk/accounts/abi/bind"
 			"github.com/surzm/hyperladger-besu-go-sdk/accounts/abi/bind/backends"
 			"github.com/surzm/hyperladger-besu-go-sdk/core"
-			"github.com/surzm/hyperladger-besu-go-sdk/crypto"
+			"github.com/ethereum/go-ethereum/crypto"
 			"github.com/surzm/hyperladger-besu-go-sdk/eth/ethconfig"
 	   `,
 		`
@@ -1880,7 +1880,7 @@ var bindTests = []struct {
 			"github.com/surzm/hyperladger-besu-go-sdk/accounts/abi/bind"
 			"github.com/surzm/hyperladger-besu-go-sdk/accounts/abi/bind/backends"
 			"github.com/surzm/hyperladger-besu-go-sdk/core"
-			"github.com/surzm/hyperladger-besu-go-sdk/crypto"
+			"github.com/ethereum/go-ethereum/crypto"
 			"github.com/surzm/hyperladger-besu-go-sdk/eth/ethconfig"
 	   `,
 		`
@@ -1932,7 +1932,7 @@ var bindTests = []struct {
 			"github.com/surzm/hyperladger-besu-go-sdk/accounts/abi/bind"
 			"github.com/surzm/hyperladger-besu-go-sdk/accounts/abi/bind/backends"
 			"github.com/surzm/hyperladger-besu-go-sdk/core"
-			"github.com/surzm/hyperladger-besu-go-sdk/crypto"
+			"github.com/ethereum/go-ethereum/crypto"
 			"github.com/surzm/hyperladger-besu-go-sdk/eth/ethconfig"
 		`,
 		tester: `

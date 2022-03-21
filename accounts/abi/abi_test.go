@@ -26,9 +26,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/surzm/hyperladger-besu-go-sdk/common"
 	"github.com/surzm/hyperladger-besu-go-sdk/common/math"
-	"github.com/surzm/hyperladger-besu-go-sdk/crypto"
 )
 
 const jsondata = `

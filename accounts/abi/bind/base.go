@@ -24,11 +24,12 @@ import (
 	"strings"
 	"sync"
 
+	gethCommon "github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/surzm/hyperladger-besu-go-sdk"
 	"github.com/surzm/hyperladger-besu-go-sdk/accounts/abi"
 	"github.com/surzm/hyperladger-besu-go-sdk/common"
 	"github.com/surzm/hyperladger-besu-go-sdk/core/types"
-	"github.com/surzm/hyperladger-besu-go-sdk/crypto"
 	"github.com/surzm/hyperladger-besu-go-sdk/event"
 )
 
@@ -138,7 +139,7 @@ func DeployContract(opts *TransactOpts, abi abi.ABI, bytecode []byte, backend Co
 	if err != nil {
 		return common.Address{}, nil, nil, err
 	}
-	c.address = crypto.CreateAddress(opts.From, tx.Nonce())
+	c.address = common.BytesToAddress(crypto.CreateAddress(gethCommon.BytesToAddress(opts.From.Bytes()), tx.Nonce()).Bytes())
 	return c.address, tx, c, nil
 }
 

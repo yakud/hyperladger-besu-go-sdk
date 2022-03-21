@@ -23,8 +23,8 @@ import (
 	"fmt"
 	"io"
 
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/surzm/hyperladger-besu-go-sdk/common"
-	"github.com/surzm/hyperladger-besu-go-sdk/crypto"
 )
 
 // The ABI holds information about a contract's context and available
