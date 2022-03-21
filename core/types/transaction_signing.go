@@ -85,6 +85,10 @@ type Signer interface {
 
 type londonSigner struct{ eip2930Signer }
 
+func NewLondonSigner(chainId *big.Int) Signer {
+	return londonSigner{eip2930Signer{NewEIP155Signer(chainId)}}
+}
+
 func (s londonSigner) Sender(tx *Transaction) (common.Address, error) {
 	if tx.Type() != DynamicFeeTxType {
 		return s.eip2930Signer.Sender(tx)
