@@ -7,8 +7,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/surzm/hyperladger-besu-go-sdk/common"
-	"github.com/surzm/hyperladger-besu-go-sdk/common/hexutil"
+	"github.com/yakud/hyperladger-besu-go-sdk/common"
+	"github.com/yakud/hyperladger-besu-go-sdk/common/hexutil"
 )
 
 var _ = (*headerMarshaling)(nil)
@@ -58,9 +58,9 @@ func (h Header) MarshalJSON() ([]byte, error) {
 // UnmarshalJSON unmarshals from JSON.
 func (h *Header) UnmarshalJSON(input []byte) error {
 	type Header struct {
-		ParentHash *common.Hash `json:"parentHash"       gencodec:"required"`
-		HashRaw    *common.Hash `json:"hash"`
-		UncleHash  *common.Hash `json:"sha3Uncles"       gencodec:"required"`
+		ParentHash  *common.Hash    `json:"parentHash"       gencodec:"required"`
+		HashRaw     *common.Hash    `json:"hash"`
+		UncleHash   *common.Hash    `json:"sha3Uncles"       gencodec:"required"`
 		Coinbase    *common.Address `json:"miner"            gencodec:"required"`
 		Root        *common.Hash    `json:"stateRoot"        gencodec:"required"`
 		TxHash      *common.Hash    `json:"transactionsRoot" gencodec:"required"`

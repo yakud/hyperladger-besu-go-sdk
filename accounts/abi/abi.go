@@ -24,7 +24,7 @@ import (
 	"io"
 
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/surzm/hyperladger-besu-go-sdk/common"
+	"github.com/yakud/hyperladger-besu-go-sdk/common"
 )
 
 // The ABI holds information about a contract's context and available

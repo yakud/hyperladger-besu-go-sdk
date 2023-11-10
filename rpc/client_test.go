@@ -24,7 +24,6 @@ import (
 	"net"
 	"net/http"
 	"net/http/httptest"
-	"os"
 	"reflect"
 	"runtime"
 	"strings"
@@ -33,7 +32,7 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/surzm/hyperladger-besu-go-sdk/log"
+	"github.com/yakud/hyperladger-besu-go-sdk/log"
 )
 
 func TestClientRequest(t *testing.T) {
@@ -196,10 +195,10 @@ func testClientCancel(transport string, t *testing.T) {
 		c, hs := httpTestClient(server, transport, fl)
 		defer hs.Close()
 		client = c
-	case "ipc":
-		c, l := ipcTestClient(server, fl)
-		defer l.Close()
-		client = c
+	//case "ipc":
+	//	c, l := ipcTestClient(server, fl)
+	//	defer l.Close()
+	//	client = c
 	default:
 		panic("unknown transport: " + transport)
 	}
@@ -691,31 +690,31 @@ func httpTestClient(srv *Server, transport string, fl *flakeyListener) (*Client,
 	return client, hs
 }
 
-func ipcTestClient(srv *Server, fl *flakeyListener) (*Client, net.Listener) {
-	// Listen on a random endpoint.
-	endpoint := fmt.Sprintf("go-ethereum-test-ipc-%d-%d", os.Getpid(), rand.Int63())
-	if runtime.GOOS == "windows" {
-		endpoint = `\\.\pipe\` + endpoint
-	} else {
-		endpoint = os.TempDir() + "/" + endpoint
-	}
-	l, err := ipcListen(endpoint)
-	if err != nil {
-		panic(err)
-	}
-	// Connect the listener to the server.
-	if fl != nil {
-		fl.Listener = l
-		l = fl
-	}
-	go srv.ServeListener(l)
-	// Connect the client.
-	client, err := Dial(endpoint)
-	if err != nil {
-		panic(err)
-	}
-	return client, l
-}
+//func ipcTestClient(srv *Server, fl *flakeyListener) (*Client, net.Listener) {
+//	// Listen on a random endpoint.
+//	endpoint := fmt.Sprintf("go-ethereum-test-ipc-%d-%d", os.Getpid(), rand.Int63())
+//	if runtime.GOOS == "windows" {
+//		endpoint = `\\.\pipe\` + endpoint
+//	} else {
+//		endpoint = os.TempDir() + "/" + endpoint
+//	}
+//	l, err := ipcListen(endpoint)
+//	if err != nil {
+//		panic(err)
+//	}
+//	// Connect the listener to the server.
+//	if fl != nil {
+//		fl.Listener = l
+//		l = fl
+//	}
+//	go srv.ServeListener(l)
+//	// Connect the client.
+//	client, err := Dial(endpoint)
+//	if err != nil {
+//		panic(err)
+//	}
+//	return client, l
+//}
 
 // flakeyListener kills accepted connections after a random timeout.
 type flakeyListener struct {

@@ -25,9 +25,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/surzm/hyperladger-besu-go-sdk/common"
-	"github.com/surzm/hyperladger-besu-go-sdk/common/math"
-	"github.com/surzm/hyperladger-besu-go-sdk/rlp"
+	"github.com/yakud/hyperladger-besu-go-sdk/common"
+	"github.com/yakud/hyperladger-besu-go-sdk/common/math"
+	"github.com/yakud/hyperladger-besu-go-sdk/rlp"
 )
 
 var (

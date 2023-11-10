@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/surzm/hyperladger-besu-go-sdk/common/hexutil"
-	"github.com/surzm/hyperladger-besu-go-sdk/rpc"
+	"github.com/yakud/hyperladger-besu-go-sdk/common/hexutil"
+	"github.com/yakud/hyperladger-besu-go-sdk/rpc"
 )
 
 // In this example, our client wishes to track the latest 'block number'

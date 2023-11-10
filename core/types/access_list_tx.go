@@ -19,7 +19,7 @@ package types
 import (
 	"math/big"
 
-	"github.com/surzm/hyperladger-besu-go-sdk/common"
+	"github.com/yakud/hyperladger-besu-go-sdk/common"
 )
 
 //go:generate go run github.com/fjl/gencodec@latest -type AccessTuple -out gen_access_tuple.go

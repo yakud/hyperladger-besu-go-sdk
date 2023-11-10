@@ -27,7 +27,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/surzm/hyperladger-besu-go-sdk/common/math"
+	"github.com/yakud/hyperladger-besu-go-sdk/common/math"
 )
 
 type testEncoder struct {

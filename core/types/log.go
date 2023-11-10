@@ -19,9 +19,9 @@ package types
 import (
 	"io"
 
-	"github.com/surzm/hyperladger-besu-go-sdk/common"
-	"github.com/surzm/hyperladger-besu-go-sdk/common/hexutil"
-	"github.com/surzm/hyperladger-besu-go-sdk/rlp"
+	"github.com/yakud/hyperladger-besu-go-sdk/common"
+	"github.com/yakud/hyperladger-besu-go-sdk/common/hexutil"
+	"github.com/yakud/hyperladger-besu-go-sdk/rlp"
 )
 
 //go:generate go run github.com/fjl/gencodec@latest -type Log -field-override logMarshaling -out gen_log_json.go

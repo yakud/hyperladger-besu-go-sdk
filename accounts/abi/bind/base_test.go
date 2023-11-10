@@ -25,13 +25,13 @@ import (
 
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/stretchr/testify/assert"
-	"github.com/surzm/hyperladger-besu-go-sdk"
-	"github.com/surzm/hyperladger-besu-go-sdk/accounts/abi"
-	"github.com/surzm/hyperladger-besu-go-sdk/accounts/abi/bind"
-	"github.com/surzm/hyperladger-besu-go-sdk/common"
-	"github.com/surzm/hyperladger-besu-go-sdk/common/hexutil"
-	"github.com/surzm/hyperladger-besu-go-sdk/core/types"
-	"github.com/surzm/hyperladger-besu-go-sdk/rlp"
+	ethereum "github.com/yakud/hyperladger-besu-go-sdk"
+	"github.com/yakud/hyperladger-besu-go-sdk/accounts/abi"
+	"github.com/yakud/hyperladger-besu-go-sdk/accounts/abi/bind"
+	"github.com/yakud/hyperladger-besu-go-sdk/common"
+	"github.com/yakud/hyperladger-besu-go-sdk/common/hexutil"
+	"github.com/yakud/hyperladger-besu-go-sdk/core/types"
+	"github.com/yakud/hyperladger-besu-go-sdk/rlp"
 )
 
 func mockSign(addr common.Address, tx *types.Transaction) (*types.Transaction, error) { return tx, nil }

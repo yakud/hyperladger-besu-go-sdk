@@ -21,8 +21,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/surzm/hyperladger-besu-go-sdk/common"
-	"github.com/surzm/hyperladger-besu-go-sdk/common/math"
+	"github.com/yakud/hyperladger-besu-go-sdk/common"
+	"github.com/yakud/hyperladger-besu-go-sdk/common/math"
 )
 
 func TestBlockNumberJSONUnmarshal(t *testing.T) {

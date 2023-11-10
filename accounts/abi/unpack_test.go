@@ -27,7 +27,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"github.com/surzm/hyperladger-besu-go-sdk/common"
+	"github.com/yakud/hyperladger-besu-go-sdk/common"
 )
 
 // TestUnpack tests the general pack/unpack tests in packing_test.go

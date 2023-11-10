@@ -22,7 +22,7 @@ import (
 	"math/big"
 
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/surzm/hyperladger-besu-go-sdk/common/hexutil"
+	"github.com/yakud/hyperladger-besu-go-sdk/common/hexutil"
 )
 
 type bytesBacked interface {

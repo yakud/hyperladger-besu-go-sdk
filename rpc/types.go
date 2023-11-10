@@ -24,8 +24,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/surzm/hyperladger-besu-go-sdk/common"
-	"github.com/surzm/hyperladger-besu-go-sdk/common/hexutil"
+	"github.com/yakud/hyperladger-besu-go-sdk/common"
+	"github.com/yakud/hyperladger-besu-go-sdk/common/hexutil"
 )
 
 // API describes the set of methods offered over the RPC interface

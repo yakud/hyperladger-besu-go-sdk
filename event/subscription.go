@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/surzm/hyperladger-besu-go-sdk/common/mclock"
+	"github.com/yakud/hyperladger-besu-go-sdk/common/mclock"
 )
 
 // Subscription represents a stream of events. The carrier of the events is typically a

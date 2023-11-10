@@ -19,7 +19,7 @@ package types
 import (
 	"math/big"
 
-	"github.com/surzm/hyperladger-besu-go-sdk/common"
+	"github.com/yakud/hyperladger-besu-go-sdk/common"
 )
 
 // LegacyTx is the transaction data of regular Ethereum transactions.

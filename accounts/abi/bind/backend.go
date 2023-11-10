@@ -19,11 +19,11 @@ package bind
 import (
 	"context"
 	"errors"
-	ethereum "github.com/surzm/hyperladger-besu-go-sdk"
+	ethereum "github.com/yakud/hyperladger-besu-go-sdk"
 	"math/big"
 
-	"github.com/surzm/hyperladger-besu-go-sdk/common"
-	"github.com/surzm/hyperladger-besu-go-sdk/core/types"
+	"github.com/yakud/hyperladger-besu-go-sdk/common"
+	"github.com/yakud/hyperladger-besu-go-sdk/core/types"
 )
 
 var (

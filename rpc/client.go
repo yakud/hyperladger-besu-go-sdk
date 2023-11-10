@@ -27,7 +27,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/surzm/hyperladger-besu-go-sdk/log"
+	"github.com/yakud/hyperladger-besu-go-sdk/log"
 )
 
 var (

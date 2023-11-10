@@ -22,8 +22,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/surzm/hyperladger-besu-go-sdk/common"
-	"github.com/surzm/hyperladger-besu-go-sdk/core/types"
+	"github.com/yakud/hyperladger-besu-go-sdk/common"
+	"github.com/yakud/hyperladger-besu-go-sdk/core/types"
 )
 
 // NotFound is returned by API methods if the requested item does not exist.

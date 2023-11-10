@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/surzm/hyperladger-besu-go-sdk/common"
+	"github.com/yakud/hyperladger-besu-go-sdk/common"
 )
 
 func TestHexOrDecimal256(t *testing.T) {

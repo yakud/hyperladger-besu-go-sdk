@@ -24,7 +24,7 @@ import (
 	"reflect"
 
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/surzm/hyperladger-besu-go-sdk/common"
+	"github.com/yakud/hyperladger-besu-go-sdk/common"
 )
 
 // MakeTopics converts a filter query argument list into a filter topic set.

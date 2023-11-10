@@ -28,7 +28,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/surzm/hyperladger-besu-go-sdk/common/hexutil"
+	"github.com/yakud/hyperladger-besu-go-sdk/common/hexutil"
 	"golang.org/x/crypto/sha3"
 )
 

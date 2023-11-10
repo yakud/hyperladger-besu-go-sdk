@@ -16,7 +16,7 @@
 
 package bind
 
-import "github.com/surzm/hyperladger-besu-go-sdk/accounts/abi"
+import "github.com/yakud/hyperladger-besu-go-sdk/accounts/abi"
 
 // tmplData is the data structure required to fill the binding template.
 type tmplData struct {
@@ -92,12 +92,12 @@ import (
 	"strings"
 	"errors"
 
-	ethereum "github.com/surzm/hyperladger-besu-go-sdk"
-	"github.com/surzm/hyperladger-besu-go-sdk/accounts/abi"
-	"github.com/surzm/hyperladger-besu-go-sdk/accounts/abi/bind"
-	"github.com/surzm/hyperladger-besu-go-sdk/common"
-	"github.com/surzm/hyperladger-besu-go-sdk/core/types"
-	"github.com/surzm/hyperladger-besu-go-sdk/event"
+	ethereum "github.com/yakud/hyperladger-besu-go-sdk"
+	"github.com/yakud/hyperladger-besu-go-sdk/accounts/abi"
+	"github.com/yakud/hyperladger-besu-go-sdk/accounts/abi/bind"
+	"github.com/yakud/hyperladger-besu-go-sdk/common"
+	"github.com/yakud/hyperladger-besu-go-sdk/core/types"
+	"github.com/yakud/hyperladger-besu-go-sdk/event"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

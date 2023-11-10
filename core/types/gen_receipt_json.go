@@ -7,8 +7,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/surzm/hyperladger-besu-go-sdk/common"
-	"github.com/surzm/hyperladger-besu-go-sdk/common/hexutil"
+	"github.com/yakud/hyperladger-besu-go-sdk/common"
+	"github.com/yakud/hyperladger-besu-go-sdk/common/hexutil"
 )
 
 var _ = (*receiptMarshaling)(nil)

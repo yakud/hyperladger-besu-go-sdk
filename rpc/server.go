@@ -22,7 +22,7 @@ import (
 	"sync/atomic"
 
 	mapset "github.com/deckarep/golang-set"
-	"github.com/surzm/hyperladger-besu-go-sdk/log"
+	"github.com/yakud/hyperladger-besu-go-sdk/log"
 )
 
 const MetadataApi = "rpc"

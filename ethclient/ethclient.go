@@ -22,13 +22,13 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	ethereum "github.com/surzm/hyperladger-besu-go-sdk"
+	ethereum "github.com/yakud/hyperladger-besu-go-sdk"
 	"math/big"
 
-	"github.com/surzm/hyperladger-besu-go-sdk/common"
-	"github.com/surzm/hyperladger-besu-go-sdk/common/hexutil"
-	"github.com/surzm/hyperladger-besu-go-sdk/core/types"
-	"github.com/surzm/hyperladger-besu-go-sdk/rpc"
+	"github.com/yakud/hyperladger-besu-go-sdk/common"
+	"github.com/yakud/hyperladger-besu-go-sdk/common/hexutil"
+	"github.com/yakud/hyperladger-besu-go-sdk/core/types"
+	"github.com/yakud/hyperladger-besu-go-sdk/rpc"
 )
 
 // Client defines typed wrappers for the Ethereum RPC API.

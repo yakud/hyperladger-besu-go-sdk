@@ -20,14 +20,14 @@ package types
 import (
 	"encoding/binary"
 	"fmt"
-	"github.com/surzm/hyperladger-besu-go-sdk/rlp"
+	"github.com/yakud/hyperladger-besu-go-sdk/rlp"
 	"math/big"
 	"reflect"
 	"sync/atomic"
 	"time"
 
-	"github.com/surzm/hyperladger-besu-go-sdk/common"
-	"github.com/surzm/hyperladger-besu-go-sdk/common/hexutil"
+	"github.com/yakud/hyperladger-besu-go-sdk/common"
+	"github.com/yakud/hyperladger-besu-go-sdk/common/hexutil"
 )
 
 var (
